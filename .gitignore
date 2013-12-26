@@ -1,1 +1,3 @@
 /vendor/
+/themes/default/bower_components
+/themes/default/node_modules
