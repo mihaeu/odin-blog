@@ -7,6 +7,6 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "mihaeu/odin": "*"
+        "mihaeu/odin": "@dev"
     }
 }

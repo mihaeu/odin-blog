@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b91ea0905a8b0fb263d80f3bb3c5910d",
+    "hash": "9ef6ad4174191fc188c6310a92b80a7e",
     "packages": [
         {
             "name": "aura/di",
@@ -225,7 +225,7 @@
         },
         {
             "name": "mihaeu/odin",
-            "version": "v0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mihaeu/odin.git",
@@ -585,9 +585,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "mihaeu/odin": 20
+    },
     "platform": {
         "php": ">=5.3.3"
     },
