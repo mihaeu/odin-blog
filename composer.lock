@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mihaeu/odin.git",
-                "reference": "3704a5787dc9b745a0876978dae97acd2d7da233"
+                "reference": "c7518fd8979a9a1b82925216e6af5a3b2bbf8158"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mihaeu/odin/zipball/3704a5787dc9b745a0876978dae97acd2d7da233",
-                "reference": "3704a5787dc9b745a0876978dae97acd2d7da233",
+                "url": "https://api.github.com/repos/mihaeu/odin/zipball/c7518fd8979a9a1b82925216e6af5a3b2bbf8158",
+                "reference": "c7518fd8979a9a1b82925216e6af5a3b2bbf8158",
                 "shasum": ""
             },
             "require": {
@@ -266,10 +266,10 @@
             ],
             "description": "Static site generator.",
             "support": {
-                "source": "https://github.com/mihaeu/odin/tree/v0.1",
+                "source": "https://github.com/mihaeu/odin/tree/master",
                 "issues": "https://github.com/mihaeu/odin/issues"
             },
-            "time": "2013-12-26 12:34:04"
+            "time": "2013-12-27 12:05:12"
         },
         {
             "name": "monolog/monolog",
