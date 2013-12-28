@@ -15,4 +15,4 @@ if (!file_exists(__DIR__.'/vendor/autoload.php')) {
 }
 require __DIR__.'/vendor/autoload.php';
 
-require __DIR__.'/vendor/mihaeu/odin/bin/odin.php';
+require __DIR__.'/vendor/odin/odin/bin/odin.php';
