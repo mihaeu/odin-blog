@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9ef6ad4174191fc188c6310a92b80a7e",
+    "hash": "9d289727a56ab873125f5b6ce2fd2620",
     "packages": [
         {
             "name": "aura/di",
@@ -224,27 +224,27 @@
             "time": "2013-12-11 11:14:26"
         },
         {
-            "name": "mihaeu/odin",
+            "name": "odin/odin",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mihaeu/odin.git",
-                "reference": "c7518fd8979a9a1b82925216e6af5a3b2bbf8158"
+                "reference": "54eab2f022e55f04b1dc8f6c958401b797b5286d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mihaeu/odin/zipball/c7518fd8979a9a1b82925216e6af5a3b2bbf8158",
-                "reference": "c7518fd8979a9a1b82925216e6af5a3b2bbf8158",
+                "url": "https://api.github.com/repos/mihaeu/odin/zipball/54eab2f022e55f04b1dc8f6c958401b797b5286d",
+                "reference": "54eab2f022e55f04b1dc8f6c958401b797b5286d",
                 "shasum": ""
             },
             "require": {
                 "aura/di": "1.*",
-                "dflydev/markdown": "*",
+                "dflydev/markdown": "1.*",
                 "kzykhys/ciconia": "~1.0.0",
-                "monolog/monolog": "*",
-                "symfony/console": "*",
-                "symfony/yaml": "*",
-                "twig/twig": "*"
+                "php": ">=5.4",
+                "symfony/console": "2.*",
+                "symfony/yaml": "2.*",
+                "twig/twig": "1.*"
             },
             "bin": [
                 "bin/odin"
@@ -255,6 +255,7 @@
                     "Mihaeu": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -265,116 +266,7 @@
                 }
             ],
             "description": "Static site generator.",
-            "support": {
-                "source": "https://github.com/mihaeu/odin/tree/master",
-                "issues": "https://github.com/mihaeu/odin/issues"
-            },
-            "time": "2013-12-27 12:05:12"
-        },
-        {
-            "name": "monolog/monolog",
-            "version": "1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6225b22de9dcf36546be3a0b2fa8e3d986153f57",
-                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/log": "~1.0"
-            },
-            "require-dev": {
-                "aws/aws-sdk-php": "~2.4.8",
-                "doctrine/couchdb": "dev-master",
-                "mlehner/gelf-php": "1.0.*",
-                "phpunit/phpunit": "~3.7.0",
-                "raven/raven": "0.5.*",
-                "ruflin/elastica": "0.90.*"
-            },
-            "suggest": {
-                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
-                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
-                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-                "ext-mongo": "Allow sending log messages to a MongoDB server",
-                "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "raven/raven": "Allow sending log messages to a Sentry server",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.7.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Monolog": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-            "homepage": "http://github.com/Seldaek/monolog",
-            "keywords": [
-                "log",
-                "logging",
-                "psr-3"
-            ],
-            "time": "2013-11-14 19:48:31"
-        },
-        {
-            "name": "psr/log",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for logging libraries",
-            "keywords": [
-                "log",
-                "psr",
-                "psr-3"
-            ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2013-12-28 09:52:09"
         },
         {
             "name": "symfony/console",
@@ -586,10 +478,10 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mihaeu/odin": 20
+        "odin/odin": 20
     },
     "platform": {
-        "php": ">=5.3.3"
+        "php": ">=5.4"
     },
     "platform-dev": [
 

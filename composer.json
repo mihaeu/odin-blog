@@ -10,14 +10,8 @@
       "email": "haeuslmann@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/mihaeu/odin"
-    }
-  ],
   "require": {
-    "php": ">=5.3.3",
-    "mihaeu/odin": "@dev"
+    "php": ">=5.4",
+    "odin/odin": "@dev"
   }
 }
