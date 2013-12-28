@@ -1,12 +1,23 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/mihaeu/odin"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.3",
-        "mihaeu/odin": "@dev"
+  "name": "odin/odin-blog",
+  "description": "Blogging made easy using odin, the PHP 5.4 content generator.",
+  "keywords": ["generator", "blog", "blogging", "static"],
+  "homepage": "https://github.com/mihaeu/odin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Haeuslmann",
+      "email": "haeuslmann@gmail.com"
     }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mihaeu/odin"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "mihaeu/odin": "@dev"
+  }
 }
